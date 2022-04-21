@@ -1,0 +1,49 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Random Quotes Generator",
+            "description": "App that displays random famous quotes on a set interval or each time a button is clicked.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "",
+            "github_link": "https://github.com/stefanolami/a_random_quote_generator-v1",
+            "image_urls": ["", ""]
+        },
+        {
+            "id": 1,
+            "project_name": "Data Pagination and Filtering",
+            "description": "Web Page displaying students data",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "",
+            "github_link": "https://github.com/stefanolami/data-pagination-and-filtering-v1",
+            "image_urls": ["", ""]
+        }, 
+        {
+            "id": 0,
+            "project_name": "Random Quotes Generator",
+            "description": "",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "",
+            "github_link": "",
+            "image_urls": ["", ""]
+        }, 
+        {
+            "id": 0,
+            "project_name": "Random Quotes Generator",
+            "description": "",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "",
+            "github_link": "",
+            "image_urls": ["", ""]
+        }, 
+        {
+            "id": 0,
+            "project_name": "Random Quotes Generator",
+            "description": "",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "",
+            "github_link": "",
+            "image_urls": ["", ""]
+        },  
+    ]
+}
