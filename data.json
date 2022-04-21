@@ -7,7 +7,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://stefanolami.github.io/a_random_quote_generator-v1/",
             "github_link": "https://github.com/stefanolami/a_random_quote_generator-v1",
-            "image_urls": ["../images/random-quotes.png", "../images/random-quotes-landscape.png"]
+            "image_urls": ["../static/images/random-quotes.png", "../static/images/random-quotes-landscape.png"]
         },
         {
             "id": 1,
@@ -16,7 +16,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://stefanolami.github.io/data-pagination-and-filtering-v1/",
             "github_link": "https://github.com/stefanolami/data-pagination-and-filtering-v1",
-            "image_urls": ["../images/data-pagination-and-filtering.png", "../images/data-pagination-and-filtering-landscape.png"]
+            "image_urls": ["../static/images/data-pagination-and-filtering.png", "../static/images/data-pagination-and-filtering-landscape.png"]
         }, 
         {
             "id": 2,
@@ -25,7 +25,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://stefanolami.github.io/interactive-form-v3/",
             "github_link": "https://github.com/stefanolami/interactive-form-v3",
-            "image_urls": ["../images/interactive-form.png", "../images/interactive-form-landscape.png"]
+            "image_urls": ["../static/images/interactive-form.png", "../static/images/interactive-form-landscape.png"]
         }, 
         {
             "id": 3,
@@ -34,7 +34,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://stefanolami.github.io/oop_game-v2/",
             "github_link": "https://github.com/stefanolami/oop_game-v2",
-            "image_urls": ["../images/oop-game.png", "../images/oop-game-landscape.png"]
+            "image_urls": ["../static/images/oop-game.png", "../static/images/oop-game-landscape.png"]
         }, 
         {
             "id": 4,
@@ -43,7 +43,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://stefanolami.github.io/public_api_request-v1/",
             "github_link": "https://github.com/stefanolami/public_api_request-v1",
-            "image_urls": ["../images/public-api-request.png", "../images/public-api-request-landscape.png"]
+            "image_urls": ["../static/images/public-api-request.png", "../static/images/public-api-request-landscape.png"]
         }  
     ]
 }

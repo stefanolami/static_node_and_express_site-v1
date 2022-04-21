@@ -1,5 +1,5 @@
 const express = require("express");
-const {data} = require("./data.json");
+
 
 const app = express();
 
@@ -7,10 +7,32 @@ app.set("view engine", "pug");
 
 app.use("/static", express.static("public"));
 
-const routes = require("./routes/index.js");
+const mainRoutes = require("./routes/index.js");
+const projectRoutes = require("./routes/projects.js");
 
-app.use(routes);
+app.use(mainRoutes);
+app.use("/projects", projectRoutes);
 
+app.use((req, res, next) => {
+    const err = new Error();
+    err.message = "Sorry, page not found";
+    err.status = 404;
+    next(err);
+})
+
+app.use((err, req, res, next) => {
+    if (err.status === 404) {
+        res.render("page-not-found", err)
+    } else {
+        if (!err.status) {
+            err.status = 500;
+        } 
+        if (!err.message) {
+            err.message = "Oops! An error has occured";
+        }
+        res.render("error", err)
+    }
+})
 
 app.listen(3000, () => {
     const today = new Date();
